@@ -1,0 +1,40 @@
+Bundler, Executable bundle generator utility.
+
+Please Note that Bundler currently only supports Python projects which uses bzr
+version control and produces .zip bundles.
+
+Copyright (C) 2011  Mohit Ranka
+
+Directory structure 
+===================
+
+create_bundle.py - The single entry of interaction for the end user.
+
+utils.py - contains utility functions.
+
+docs/ - Documentation (or the lack of thereof) for Bundler.
+
+
+Dependencies
+============
+
+Bundler has following dependency requirements.  
+
+1. python2.6
+2. bzrlib 
+
+Usage
+=====
+
+python create_bundle.py [options]
+
+Options:
+  -h, --help            show this help message and exit.
+
+  -s SOURCE_LOCATION, --source_location=SOURCE_LOCATION
+                        Location of source directory of the bundle.
+
+License
+=======
+
+Refer docs/LICENSE for information regarding mDataRecovery license.
