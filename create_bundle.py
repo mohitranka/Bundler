@@ -53,7 +53,7 @@ class ZipUtils(object):
 z = ZipUtils()
 
 def parseOptions():
-    """Adds different commandline options for mDataRecovery. 
+    """Adds different commandline options for Bundler. 
     """
     parser = OptionParser()
     parser.add_option('-s',
